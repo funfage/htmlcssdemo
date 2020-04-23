@@ -1,0 +1,71 @@
+#top {
+    width: 100%;
+    height: 42px;
+    background-color: #f9f9f9;
+    border: solid 1px #eeeeee;
+}
+
+#top .top_content {
+    width: 1200px;
+    height: 42px;
+    margin: 0px auto;
+}
+
+#top .top_content .deliver {
+    width: 160px;
+    height: 42px;
+    float: left;
+    line-height: 42px;
+}
+
+#top .top_content .login {
+    width: 200px;
+    height: 42px;
+    float: left;
+    line-height: 42px;
+}
+
+#top .top_content .usercenter {
+    width: 200px;
+    height: 42px;
+    float: right;
+    line-height: 42px;
+}
+
+#search {
+    width: 100%;
+    height: 96px;
+}
+
+#search .search_content {
+    width: 1200px;
+    height: 96px;
+    margin: 0px auto;
+}
+
+#search .search_content .logo {
+    width: 210px;
+    height: 96px;
+    float: left;
+    /* line-height: 0px; */
+}
+
+#search .search_content .logo a img {
+    /* margin-top: 27px; */
+    /* line-height: 0px; */
+    /* vertical-align: bottom; */
+}
+
+#search .search_content .searchform {
+    width: 750px;
+    height: 96px;
+    background-color: blue;
+    float: left;
+}
+
+#search .search_content .shoppingcar {
+    width: 144px;
+    height: 96px;
+    float: right;
+    background-color: orange;
+}
