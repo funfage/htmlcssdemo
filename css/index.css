@@ -215,16 +215,24 @@
     padding-top: 40px;
 }
 
-#productshow .djh_bar {
+#productshow .common_bar {
     width: 1200px;
     height: 45px;
     background-color: #eff0f8;
-    border-top: 2px solid #ca4283;
+    border-top: 2px solid;
     margin: 0px auto;
-    margin-bottom: 22px;
+    margin-bottom: 14px;
 }
 
-#productshow .djh_bar .title {
+#productshow .djh_bar {
+    border-top-color: #ca4283;
+}
+
+#productshow .djh_bar .djh_title {
+    background: url(../images/djh_bg.png) repeat-y center center;
+}
+
+#productshow .common_bar .common_title {
     width: 190px;
     height: 45px;
     line-height: 45px;
@@ -232,7 +240,6 @@
     font-size: 16px;
     font-weight: bolder;
     color: white;
-    background: url(../images/djh_bg.png) repeat-y center center;
     float: left;
 }
 
@@ -258,9 +265,15 @@
     float: left;
 }
 
+#productshow .djh_content .djh_content_div .djh_img {
+    height: 156px;
+}
+
 #productshow .djh_content .right_margin_6 {
     margin-right: 6px;
 }
+
+
 
 #productshow .djh_content .djh_content_div .djh_bottom {
     font-size: 14px;
@@ -287,4 +300,75 @@
     text-align: right;
     margin-right: 20px;
     color: #ff6182;
+}
+
+/* 商品展示内容的样式 */
+#productshow .p_info {
+    margin-top: 45px;
+}
+
+#productshow .p_info .ymzj_bar {
+    border-top-color: #325bb4;
+}
+
+#productshow .p_info .ymzj_bar .ymzj_title {
+    background: url(../images/myzj_title_bg.png) repeat-y center center;
+}
+
+#productshow .p_info .ymzj_bar .p_list {
+    float: right;
+}
+
+#productshow .p_info .ymzj_bar .p_list li {
+    text-align: center;
+    padding: 17px 19px;
+    float: right;
+}
+
+#productshow .p_info .p_content {
+    width: 1200px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+#productshow .p_info .p_content .p_content_detail {
+    width: 230px;
+    height: 300px;
+    border: 1px solid #dddddd;
+    float: left;
+}
+
+#productshow .p_info .p_content .right_margin_10 {
+    margin-right: 10px;
+}
+
+#productshow .p_info .p_content .p_content_detail .p_img {
+    width: 230px;
+    height: 216px;
+    text-align: center;
+}
+
+#productshow .p_info .p_content .p_content_detail .p_img a img {
+    width: 216px;
+    vertical-align: middle;
+}
+
+#productshow .p_info .p_content .p_content_detail .p_bottom {
+    width: 230px;
+    height: 84px;
+    padding-left: 4px;
+}
+
+#productshow .p_info .p_content .p_content_detail .p_bottom .price {
+    width: 230px;
+    height: 26px;
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+}
+
+#productshow .p_info .p_content .p_content_detail .desc {
+    width: 230px;
+    height: 60px;
+    font-size: 14px;
 }
