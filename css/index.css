@@ -147,8 +147,8 @@
     left: 0px;
     background: white;
     filter: alpha(Opacity=96);
-	-moz-opacity: 0.96;
-	opacity: 0.96;
+    -moz-opacity: 0.96;
+    opacity: 0.96;
 }
 
 #nav .nav_content .allclass_content ul {
@@ -169,6 +169,37 @@
 
 #nav .nav_content .allclass_content li a em {
     float: right;
+}
+
+#nav .nav_content .notice {
+    width: 230px;
+    height: 500px;
+    background-color: white;
+    /* float: right;     */
+    position: absolute;
+    right: 0px;
+    margin-top: 42px;
+    padding: 0px 10px;
+}
+
+#nav .nav_content .notice h2{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px #cccccc dashed;
+    font-size: 16px;
+}
+
+#nav .nav_content .notice ul{
+    margin-top: 10px;
+}
+
+#nav .nav_content .notice ul li{
+    margin-bottom: 15px;
+}
+
+#nav .nav_content .notice ul li a{
+    font-size: 14px;
 }
 
 #carousel {
