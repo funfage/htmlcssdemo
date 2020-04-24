@@ -7,6 +7,7 @@
     <title>html与css基础的综合实战案例</title>
     <link rel="stylesheet" href="css/base.css" type="text/css">
     <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/iconfont.css" type="text/css">
 </head>
 
 <body>
@@ -32,18 +33,37 @@
     <div id="search">
         <div class="search_content clearfix">
             <div class="logo">
-                <a href="#"><img src="images/search_logo.png"><span style="color: black; background-color: red;">XXXX</span></a>
+                <a href="#"><img src="images/search_logo.png"></a>
+                <span style="display:inline-block;height:100%;vertical-align:middle;font-size:0;"></span>
             </div>
             <div class="searchform">
-                searchform
+                <form action="#">
+                    <input type="text" id="searchtext" placeholder="零食盛宴 满99减50满199减100..."><input type="button" id="searchbtn" value="搜索">
+                </form>
             </div>
             <div class="shoppingcar">
-                shoppingcar
+                <a href="#" class="iconfont icon-gouwuchezhengpin"> 我的购物车</a>
             </div>
         </div>
     </div>
     <div id="nav">
-
+        <div class="nav_content">
+            <div class="allclass iconfont icon-leimupinleifenleileibie">
+                全部商品分类
+            </div>
+            <ul class="nav_items">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">大聚惠</a></li>
+                <li><a href="#">易购商城</a></li>
+                <li><a href="#">电器城</a></li>
+                <li><a href="#">生活家电</a></li>
+                <li><a href="#">时尚服装</a></li>
+                <li><a href="#">海淘购</a></li>
+                <li><a href="#">特卖</a></li>
+                <li><a href="#">易购专区</a></li>
+                <li><a href="#">会有</a></li>
+            </ul>
+        </div>
     </div>
     <div id="carousel">
 

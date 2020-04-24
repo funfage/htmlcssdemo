@@ -6,51 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>测试</title>
     <style>
-        .wrap {
-            background: #249ff1;
-            /* line-height: 0px; */
+        .line-box {
+            position: relative;
+            /* padding-left: 100px; */
+            border: 1px solid black;
             /* font-size: 0px; */
-            /* line-height: 50px; */
+            height: 600px;
         }
 
-        span {
+        .line-box::after {
+            font-size: 20px;
+            content: 'x';
+            line-height: 10px;
+        }
+
+        .text {
+            background-color: red;
             display: inline-block;
-            width: 100px;
-            height: 100px;
-            border: 1px solid #f00;
-            /* vertical-align: middle; */
-        }
-
-        img {
-            width: 100px;
-            vertical-align: bottom;
-        }
-
-        .middle {
+            font-size: 30px;
             vertical-align: middle;
         }
 
-        #span1{
-            display: inline;
-            background-color: red;
-            /* line-height: 50px; */
-            font-size: 20px;
-            /* line-height: 20px; */
+        .child-box1 {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            vertical-align: middle;
         }
 
+        .child-box2 {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            vertical-align: middle;
+        }
+
+        .line {
+            position: absolute;
+            top: 100px;
+            height: 2px;
+            width: 300px;
+            background: black;
+        }
     </style>
 </head>
 
 <body>
-    <div class="wrap">
+    <!-- <div class="wrap">
         <img src="images/Snipaste_2020-04-22_21-20-16.png"/>
     </div>
     <div class="wrap">
         <span style="vertical-align: baseline;">我有内容</span>
         <span style="vertical-align: top;"></span>
-    </div>
-    <div class="wrap" style="height:200px;">
-        <img src="images/Snipaste_2020-04-22_21-20-16.png" class="middle" />
+    </div> -->
+    <div class="wrap" style="height:400px;">
+        <div class="line-box">
+            <span class="text">一些文本text</span>
+            <span style="display:inline-block;height:100%;vertical-align:middle;font-size:0;"></span>
+            <!-- 横线，测试用，用来比对两个子元素和父元素对齐的位置 -->
+            <!-- <dikv class="line"></dikv> -->
+            <!-- <div class="child-box1"></div>
+            <div class="child-box2"></div> -->
+        </div>
     </div>
 </body>
 
