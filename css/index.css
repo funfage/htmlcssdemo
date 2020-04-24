@@ -30,6 +30,7 @@
     height: 42px;
     float: right;
     line-height: 42px;
+    text-align: center;
 }
 
 #search {
@@ -182,7 +183,7 @@
     padding: 0px 10px;
 }
 
-#nav .nav_content .notice h2{
+#nav .nav_content .notice h2 {
     width: 100%;
     height: 50px;
     line-height: 50px;
@@ -190,15 +191,15 @@
     font-size: 16px;
 }
 
-#nav .nav_content .notice ul{
+#nav .nav_content .notice ul {
     margin-top: 10px;
 }
 
-#nav .nav_content .notice ul li{
+#nav .nav_content .notice ul li {
     margin-bottom: 15px;
 }
 
-#nav .nav_content .notice ul li a{
+#nav .nav_content .notice ul li a {
     font-size: 14px;
 }
 
@@ -206,4 +207,84 @@
     width: 100%;
     height: 500px;
     background: url('../images/carouselimg.png') no-repeat center center;
+}
+
+/* 商品展示部分样式 */
+#productshow {
+    width: 100%;
+    padding-top: 40px;
+}
+
+#productshow .djh_bar {
+    width: 1200px;
+    height: 45px;
+    background-color: #eff0f8;
+    border-top: 2px solid #ca4283;
+    margin: 0px auto;
+    margin-bottom: 22px;
+}
+
+#productshow .djh_bar .title {
+    width: 190px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    background: url(../images/djh_bg.png) repeat-y center center;
+    float: left;
+}
+
+#productshow .djh_bar .right_link {
+    width: 90px;
+    height: 45px;
+    line-height: 45px;
+    background-color: red;
+    float: right;
+    color: white;
+    text-align: center;
+}
+
+#productshow .djh_content {
+    width: 1200px;
+    height: 179px;
+    margin: 0px auto;
+}
+
+#productshow .djh_content .djh_content_div {
+    width: 396px;
+    height: 179px;
+    float: left;
+}
+
+#productshow .djh_content .right_margin_6 {
+    margin-right: 6px;
+}
+
+#productshow .djh_content .djh_content_div .djh_bottom {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+#productshow .djh_content .djh_content_div .djh_bottom .price {
+    width: 86px;
+    height: 19px;
+    line-height: 19px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    float: left;
+}
+
+#productshow .djh_content .djh_content_div .djh_bottom .f_bag {
+    float: right;
+}
+
+#productshow .djh_content .djh_content_div .djh_bottom .buy_num {
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+    color: #ff6182;
 }
