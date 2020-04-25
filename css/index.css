@@ -213,6 +213,7 @@
 #productshow {
     width: 100%;
     padding-top: 40px;
+    padding-bottom: 90px;
 }
 
 #productshow .common_bar {
@@ -371,4 +372,73 @@
     width: 230px;
     height: 60px;
     font-size: 14px;
+}
+
+#foot {
+    width: 100%;
+    height: 370px;
+    background-color: #f8f7f4;
+
+}
+
+#foot .foot_content {
+    width: 100%;
+    height: 228px;
+    border-top: 2px #ff3333 solid;
+    border-bottom: 1px #e0dedb solid;
+}
+
+#foot .foot_content .foot_con1200 {
+    width: 1200px;
+    height: 228px;
+    margin: 0px auto;
+}
+
+#foot .foot_content .foot_con1200 ul {
+    width: 215px;
+    height: 202px;
+    border-right: 1px #e0dedb solid;
+    float: left;
+    padding-top: 26px;
+}
+
+#foot .foot_content .foot_con1200 .lastul {
+    width: 336px;
+    border-right: 0px;
+}
+
+#foot .foot_content .foot_con1200 ul li h2 {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+#foot .foot_content .foot_con1200 ul li a{
+    color: #9a9791;
+}
+
+#foot .foot_content .foot_con1200 ul li img{
+
+}
+
+#foot .foot_content .foot_con1200 ul li {
+    padding-left: 40px;
+    padding-bottom: 13px;
+}
+
+#foot .foot_content p{
+    line-height: 30px;
+    text-align: center;
+}
+
+#foot .foot_content .friend_link{
+    margin-top: 15px;
+}
+
+#foot .foot_content .friend_link em{
+    font-weight: bolder;
+}
+
+#foot .foot_content .friend_link a{
+    padding: 0px 3px;
 }
